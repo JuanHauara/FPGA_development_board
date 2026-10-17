@@ -1,0 +1,40 @@
+Quiero crear una PCB en Altium Designer. Ese no es el problema porque tengo varios años de experiencia. El tema es que no tengo mucho tiempo y si lo tuviera tampoco se lo dedicaría porque por lo siguiente: quiero hacer una PCB que me sirva de base para yo conectar una placa FPGA de Lattice. Tengo una placa de prueba que es una Lattice Semiconductor Mach XO3LF Starter Kit. Adjunto la documentación en pdf que tengo de la placa Lattice que tengo.
+Lo que quiero hacer es diseñar una placa, una PCB base sobre la cual yo pueda pinchar esta PCB y en esa placa base poder agregarle LEDs, interruptores, botones, switch, display de siete segmentos, ¿qué más?, una pantallita LCD de Siemens que tengo. Te voy a ir pasando fotos de la pantallita LCD que quiero conectar. ¿Qué más? Y también, casi lo más importante, le voy a hacer que tenga unos pines macho que se puedan encastrar directamente sobre una... no, una no, sino dos o más breadboard para que yo pueda prototipar sobre una breadboard y tener comunicación con mi plaquita FPGA. Bueno, inicio este chat para que, como lo voy a hacer rápido, el proyecto, en un par de días ya lo quiero tener listo y enviarlo a fabricar a JLC PCB, porque estoy practicando Verilog y VHDL y quiero dedicar la mayor parte del tiempo a eso, no a diseñar esta placa. Aparte no tiene mayor complejidad esta placa, es simplemente que va a tener entradas y salidas para mi FPGA. El programador de la FPGA ya está incluido en el starter kit que he comprado. Lo que sí le voy a poner, quiero que tenga fuentecitas de alimentación la PCB para que también me facilite el prototipado y todo lo demás. 
+Esto es lo que quiero agregar a la PCB:
+-- Reguladores lineales de 1.2V, 1.5V, 1.8V, 2.5V, 3.3V y 5V. Estos serán para los periféricos que ensaye con la FPGA. No se si la FPGA necesita también? En qué pines?
+-- Cristal activo 50MHz: Es útil? Vale la pena agregarlo? A qué pines de la FPGA conviene conectarlo? Cuantos pongo 1 o más? La placa de Lattice tiene alguno ya conectado?
+-- Módulo Black pill con MCU STM32F411: A qué pines de la FPGA conviene conectarlo? Creo que sería bueno colocar jumpers para poder desconectarlo si no lo utilizo. Necesito adaptar voltage de pines?
+-- Módulo pantalla LCD Nokia 5110: A qué pines de la FPGA conviene conectarlo? Necesito adaptar voltage de pines?
+
+-- Conversor USB C a TTL con CP2102: A qué pines de la FPGA conviene conectarlo? Necesito adaptar voltage de pines?
+
+-- Módulo RS485 con chip MAX485: A qué pines de la FPGA conviene conectarlo? Necesito adaptar voltage de pines?
+
+-- Decodificador rotatorio: Cuántos coloco? Tengo varios. A qué pines de la FPGA conviene conectarlo? Necesita alimentación?
+
+-- DIP switches en grupos de 4: Cuántos coloco? Tengo varios.
+
+-- 5 display de 7 segmentos + punto decimal + doble punto de horas/minutos. Cada display es de 4 caracteres. Quiero poner los 5 display. No es necesario que me digas que pines de la FPGA usar, solo los menciono.
+
+-- LEDs: Cuántos coloco? Tengo varios.
+
+-- Switches/interruptores de dos posiciones, 3 pines: Cuántos coloco? Tengo varios.
+
+-- Botones pulsadores tact switch: Cuántos coloco? Tengo varios.
+
+-- Buzzer: Colocaré uno.
+
+-- Módulo micro SD: A qué pines de la FPGA conviene conectarlo? Necesito adaptar voltage de pines?
+
+Además de practicar mi programación en Verilog y VHDL, voy a utilizar esta placa para desarrollar una PC antigua con un microprocesador Intel 80C86 que tengo en empaquetado DIP original. No recuerdo cuántos pines era. Así que quiero dejar un zócalo en la plaqueta para conectar esta CPU y que se conecte directamente cada uno de sus pines a pines de la FPGA para ir desarrollando todos los chips periféricos que necesita esta CPU con la FPGA, ¿no es cierto? Además también tengo chips de memoria para la BIOS para esta CPU. Ahí te envío una foto donde vas a poder ver el modelo de cada chip que tengo. Y también tengo, muy importante, chips de memoria RAM estática, que son los que voy a utilizar para esta PC IBM que quiero diseñar. No quiero usar ningún chip original con esta PC. Lo único original que quiero tener es la CPU solamente y todos los chips periféricos los voy a diseñar con la FPGA. Menciono todo esto para que me digas qué pines me conviene conectar entre la CPU y la FPGA, entre la BIOS y la FPGA, y entre la memoria RAM y la FPGA, o no sé si van directo a la CPU. Yo creería que va la CPU a la FPGA y la FPGA al chip de BIOS y a los chips de RAM, porque la FPGA va a ser de interfaz. Voy a crear el bus de datos, el bus de direcciones, todo lo que necesitaba una IBM PC 5150, bueno, lo voy a implementar con la FPGA.
+
+-- Las memorias RAM son unas CY62148BLL, tengo 5 chips.
+
+-- Adaptadores sil pin a PFC 40 pines, 50 pines y 60 pines: Esto es porque luego quiero desarrollar una placa de video MDA para la IBM PC y tendrá salida directa a pantalla LCD con conector RGB paralelo.
+
+No es necesario que todos estos periféricos estén todo el tiempo conectados a la FPGA, ya que es una placa de entrenamiento y puedo ir conectando los periféricos que tenga ganas de ensayar en ese momento. Lo que sí, por ejemplo, tiene algunas restricciones es la parte de ensayar la IBM PC con la CPU Intel 8086. En ese caso sí voy a necesitar una conexión completa, aunque sea, entre la CPU, la memoria RAM, los chips de BIOS y, ¿qué más? Y eventualmente, cuando desarrolle la placa de video monocromática que quiero hacer con la FPGA. Entonces ese conjunto sí tendría que estar permanentemente en la PCB, todo lo que es el bus de datos, direcciones y esos chips de memoria que acabo de mencionar, la placa de video monocromática, como para tener una base para yo ir desarrollando el sistema, ¿no es cierto? Luego, si más adelante necesito algo más completo, más complejo, bueno, crearé una placa solo para ensayar la IBM PC, pero que al menos me sirva para empezar con el proyecto esta placa que voy a hacer.
+
+En cada uno de los periféricos que voy a poner en la placa te he dejado cuáles son las dudas que me genera cada uno de los periféricos y, más que nada, quiero que me ayudes a definir si alguno de los periféricos tiene algún requerimiento especial. Fíjate si es conveniente conectarlo a determinados pines de la FPGA con funciones especiales. En principio no se me ocurre ninguno. Pero bueno, por eso fíjate. Quizás me digas vos: mirá, el microcontrolador te conviene usar estos pines porque la FPGA acá tiene esto y esto, o quizás no. Y si es así, bueno, mejor, mucho más fácil el diseño: utilizo cualquier pin para conectar a cualquiera de los periféricos.
+
+Voy a ir creando la PCB en Altium Designer y a medida que me vayan surgiendo dudas te voy a ir consultando. En principio, desde ya te voy preguntando por el tema de la alimentación. Imagino que el starter kit este ya tiene solucionado todo el tema de la alimentación, pero no sé si es necesario ingresar alimentación por alguno de los pines de la FPGA, aparte de la alimentación que ya viene en esta plaquita.
+
