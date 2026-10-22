@@ -186,7 +186,7 @@ GenerateClassCluster=0
 DocumentUniqueId=TMAMXSRH
 
 [Document9]
-DocumentPath=FPGA_pin_access.SchDoc
+DocumentPath=FPGA_interface_pins.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
