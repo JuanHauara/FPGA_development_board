@@ -1,8 +1,8 @@
 Record=TopLevelDocument|FileName=buzzer.SchDoc|SheetNumber=13
 Record=NoMainPathDocument|SourceDocument=buzzer.SchDoc|FileName=FPGA_breadboard_connections.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=buzzer.SchDoc|FileName=FPGA_interface_pins.SchDoc|SheetNumber=4
 Record=NoMainPathDocument|SourceDocument=buzzer.SchDoc|FileName=FPGA_J3_J4.SchDoc|SheetNumber=2
 Record=NoMainPathDocument|SourceDocument=buzzer.SchDoc|FileName=FPGA_J6_J8.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=buzzer.SchDoc|FileName=FPGA_pin_access.SchDoc|SheetNumber=4
 Record=NoMainPathDocument|SourceDocument=buzzer.SchDoc|FileName=IBM_PC_CPU.SchDoc|SheetNumber=6
 Record=NoMainPathDocument|SourceDocument=buzzer.SchDoc|FileName=IBM_PC_RAM.SchDoc|SheetNumber=7
 Record=NoMainPathDocument|SourceDocument=buzzer.SchDoc|FileName=IBM_PC_ROM_BIOS.SchDoc|SheetNumber=8
