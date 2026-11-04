@@ -1,0 +1,45 @@
+Added Component: Designator=P13(HDR2X19)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin LS1-1A
+Add Pin To Net: Unknown Pin: Pin LS1-2A
+Added Pin To Net: NetName=AD14_3v Pin=P13-1
+Added Pin To Net: NetName=AD13_3v Pin=P13-2
+Added Pin To Net: NetName=LEVEL_SHIFT_O\E\ Pin=P13-3
+Added Pin To Net: NetName=LEVEL_SHIFT_DIR Pin=P13-4
+Added Pin To Net: NetName=A1_latch_3v Pin=P13-5
+Added Pin To Net: NetName=B\H\E\_latch_3v Pin=P13-6
+Added Pin To Net: NetName=A3_latch_3v Pin=P13-7
+Added Pin To Net: NetName=A0_latch_3v Pin=P13-8
+Added Pin To Net: NetName=GND Pin=P13-9
+Added Pin To Net: NetName=GND Pin=P13-10
+Added Pin To Net: NetName=A5_latch_3v Pin=P13-11
+Added Pin To Net: NetName=A2_latch_3v Pin=P13-12
+Added Pin To Net: NetName=A7_latch_3v Pin=P13-13
+Added Pin To Net: NetName=A4_latch_3v Pin=P13-14
+Added Pin To Net: NetName=PCLKT2_1 Pin=P13-15
+Added Pin To Net: NetName=A6_latch_3v Pin=P13-16
+Added Pin To Net: NetName=A9_latch_3v Pin=P13-17
+Added Pin To Net: NetName=A8_latch_3v Pin=P13-18
+Added Pin To Net: NetName=GND Pin=P13-19
+Added Pin To Net: NetName=GND Pin=P13-20
+Added Pin To Net: NetName=A11_latch_3v Pin=P13-21
+Added Pin To Net: NetName=A10_latch_3v Pin=P13-22
+Added Pin To Net: NetName=A13_latch_3v Pin=P13-23
+Added Pin To Net: NetName=A12_latch_3v Pin=P13-24
+Added Pin To Net: NetName=A15_latch_3v Pin=P13-25
+Added Pin To Net: NetName=A14_latch_3v Pin=P13-26
+Added Pin To Net: NetName=A17_latch_3v Pin=P13-27
+Added Pin To Net: NetName=A16_latch_3v Pin=P13-28
+Added Pin To Net: NetName=GND Pin=P13-29
+Added Pin To Net: NetName=GND Pin=P13-30
+Added Pin To Net: NetName=A19_latch_3v Pin=P13-31
+Added Pin To Net: NetName=PCLKT2_0 Pin=P13-32
+Added Pin To Net: NetName=RAM_C\E\_high_byte Pin=P13-33
+Added Pin To Net: NetName=A18_latch_3v Pin=P13-34
+Added Pin To Net: NetName=IO_R4 Pin=P13-35
+Added Pin To Net: NetName=RAM_C\E\_low_byte Pin=P13-36
+Added Pin To Net: NetName=IO_T3 Pin=P13-37
+Added Pin To Net: NetName=IO_T4 Pin=P13-38
+Added Member To Class: ClassName=FPGA_interface_pins Member=Component P13 FPGA J6 pins access
