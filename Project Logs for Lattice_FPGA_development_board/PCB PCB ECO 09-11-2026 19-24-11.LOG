@@ -1,0 +1,65 @@
+Added Component: Designator=C76(capacitor 0603)
+Add component (AddParameter): Name = "LCSC part"; Value = "C59461"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "V"; Value = "6.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22uF"; VariantName = "[No Variations]"
+Added Component: Designator=C77(capacitor 0805)
+Add component (AddParameter): Name = "LCSC part"; Value = "C1711"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "V"; Value = "50"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=LS1(Buzzer 12mm x 8.25mm - 6.5mm pitch)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.megastar.com/linecard/buzzmode/index.php"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "17-Dec-2003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Dec-2003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Schematic revised, PCB Footprint replaced."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Magnetic Transducer Buzzer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "ABSM-1574"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "24-Mar-1999"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P33(HDR2X3)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=Q1(sot-23)
+Add component (AddParameter): Name = "LCSC part"; Value = "C20917"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = "Alpha & Omega Semicon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR part"; Value = "AO3400A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOT-23-3L"; VariantName = "[No Variations]"
+Added Component: Designator=R116(resistor 0603)
+Add component (AddParameter): Name = "LCSC part"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "470"; VariantName = "[No Variations]"
+Added Component: Designator=R117(resistor 0603)
+Add component (AddParameter): Name = "LCSC part"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C76-1
+Added Pin To Net: NetName=Vdd_5V Pin=C76-2
+Added Pin To Net: NetName=Vdd_5V Pin=C77-1
+Added Pin To Net: NetName=GND Pin=C77-2
+Added Pin To Net: NetName=Vdd_5V Pin=LS1-1
+Add Pin To Net: Unknown Pin: Pin LS1-1A
+Added Pin To Net: NetName=NetLS1_2 Pin=LS1-2
+Add Pin To Net: Unknown Pin: Pin LS1-2A
+Added Pin To Net: NetName=IO_A4 Pin=P33-1
+Added Pin To Net: NetName=NetP33_2 Pin=P33-2
+Added Pin To Net: NetName=stm32h750_buzzer Pin=P33-3
+Added Pin To Net: NetName=NetP33_2 Pin=P33-4
+Added Pin To Net: NetName=stm32f411_buzzer Pin=P33-5
+Added Pin To Net: NetName=NetP33_2 Pin=P33-6
+Added Pin To Net: NetName=NetQ1_2 Pin=Q1-1
+Added Pin To Net: NetName=GND Pin=Q1-2
+Added Pin To Net: NetName=NetLS1_2 Pin=Q1-3
+Added Pin To Net: NetName=NetP33_2 Pin=R116-1
+Added Pin To Net: NetName=NetQ1_2 Pin=R116-2
+Added Pin To Net: NetName=NetQ1_2 Pin=R117-1
+Added Pin To Net: NetName=GND Pin=R117-2
+Added Member To Class: ClassName=buzzer Member=Component C76 ceramic capacitor
+Added Member To Class: ClassName=buzzer Member=Component C77 ceramic capacitor
+Added Member To Class: ClassName=buzzer Member=Component LS1 Buzzer
+Added Member To Class: ClassName=buzzer Member=Component P33 Header 3X2
+Added Member To Class: ClassName=buzzer Member=Component Q1 AO3400A
+Added Member To Class: ClassName=buzzer Member=Component R116 resistor
+Added Member To Class: ClassName=buzzer Member=Component R117 resistor

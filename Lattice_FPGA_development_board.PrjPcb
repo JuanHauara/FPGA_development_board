@@ -373,6 +373,23 @@ GenerateClassCluster=0
 DocumentUniqueId=WCDZTXXC
 
 [Document20]
+DocumentPath=micro_sd.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=18
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ILSXGEUH
+
+[Document21]
 DocumentPath=NOR_flash.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -389,7 +406,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IJWAKDKR
 
-[Document21]
+[Document22]
 DocumentPath=stm32h750_dev_board.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -406,7 +423,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NCGUMXGD
 
-[Document22]
+[Document23]
 DocumentPath=..\..\Library\Altium_components_library_jh\componentes_sueltos\SN74LVC4245APW\SN74LVC4245APW.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -423,7 +440,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document23]
+[Document24]
 DocumentPath=..\..\Library\Altium_components_library_jh\componentes_sueltos\SN74LVC4245APW\SN74LVC4245APW.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -440,7 +457,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document24]
+[Document25]
 DocumentPath=LCD_RGB_parallel_connector.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -457,7 +474,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BJWCXHXA
 
-[Document25]
+[Document26]
 DocumentPath=stm32f411_dev_board.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -474,7 +491,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZNCWNDKB
 
-[Document26]
+[Document27]
 DocumentPath=..\..\Library\Altium_components_library_jh\componentes_sueltos\ul_SN74LVC244APWR\SN74LVC244APWR.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -491,7 +508,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document27]
+[Document28]
 DocumentPath=..\..\Library\Altium_components_library_jh\componentes_sueltos\ul_SN74LVC244APWR\SN74LVC244APWR.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -508,7 +525,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document28]
+[Document29]
 DocumentPath=PCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
