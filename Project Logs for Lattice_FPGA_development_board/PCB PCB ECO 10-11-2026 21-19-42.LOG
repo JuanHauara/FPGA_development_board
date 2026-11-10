@@ -1,0 +1,63 @@
+Added Component: Designator=P6(HDR2X7)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P8(HDR2X8)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P9(HDR2X8)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=PCLKT3_0 Pin=P6-1
+Added Pin To Net: NetName=PCLKT4_0 Pin=P6-3
+Added Pin To Net: NetName=PCLKT2_1 Pin=P6-5
+Added Pin To Net: NetName=PCLKT1_0 Pin=P6-7
+Added Pin To Net: NetName=L_GPLLT_IN Pin=P6-9
+Added Pin To Net: NetName=PCLKT2_0 Pin=P6-11
+Added Pin To Net: NetName=R_GPLLT_IN Pin=P6-13
+Added Pin To Net: NetName=IO_H3 Pin=P8-1
+Added Pin To Net: NetName=B\H\E\_3v Pin=P8-2
+Added Pin To Net: NetName=IO_D1 Pin=P8-3
+Added Pin To Net: NetName=M/I\O\_3v Pin=P8-4
+Added Pin To Net: NetName=IO_D3 Pin=P8-5
+Added Pin To Net: NetName=READY_3v Pin=P8-6
+Added Pin To Net: NetName=IO_F3 Pin=P8-7
+Added Pin To Net: NetName=CPU_RESET_3v Pin=P8-8
+Added Pin To Net: NetName=IO_H3 Pin=P8-9
+Added Pin To Net: NetName=NOR_FLASH_1_CS Pin=P8-10
+Added Pin To Net: NetName=IO_D1 Pin=P8-11
+Added Pin To Net: NetName=NOR_FLASH_1_MISO Pin=P8-12
+Added Pin To Net: NetName=IO_D3 Pin=P8-13
+Added Pin To Net: NetName=NOR_FLASH_1_MOSI Pin=P8-14
+Added Pin To Net: NetName=IO_F3 Pin=P8-15
+Added Pin To Net: NetName=NOR_FLASH_1_SCK Pin=P8-16
+Added Pin To Net: NetName=IO_G3 Pin=P9-1
+Added Pin To Net: NetName=I\N\T\A\_3v Pin=P9-2
+Added Pin To Net: NetName=IO_F5 Pin=P9-3
+Added Pin To Net: NetName=CPU_CLK_3v Pin=P9-4
+Added Pin To Net: NetName=IO_E3 Pin=P9-5
+Added Pin To Net: NetName=INTR_3v Pin=P9-6
+Added Pin To Net: NetName=IO_B1 Pin=P9-7
+Added Pin To Net: NetName=NMI_3v Pin=P9-8
+Added Pin To Net: NetName=IO_G3 Pin=P9-9
+Added Pin To Net: NetName=NOR_FLASH_2_CS Pin=P9-10
+Added Pin To Net: NetName=IO_F5 Pin=P9-11
+Added Pin To Net: NetName=NOR_FLASH_2_MISO Pin=P9-12
+Added Pin To Net: NetName=IO_E3 Pin=P9-13
+Added Pin To Net: NetName=NOR_FLASH_2_MOSI Pin=P9-14
+Added Pin To Net: NetName=IO_B1 Pin=P9-15
+Added Pin To Net: NetName=NOR_FLASH_2_SCK Pin=P9-16
+Added Pin To Net: NetName=NetP6_2 Pin=P6-2
+Added Pin To Net: NetName=NetP6_2 Pin=P6-4
+Added Pin To Net: NetName=NetP6_2 Pin=P6-6
+Added Pin To Net: NetName=NetP6_2 Pin=P6-8
+Added Pin To Net: NetName=NetP6_2 Pin=P6-10
+Added Pin To Net: NetName=NetP6_2 Pin=P6-12
+Added Pin To Net: NetName=NetP6_2 Pin=P6-14
+Added Pin To Net: NetName=NetP6_2 Pin=X2-3
+Added Net: Name=NetP6_2
+Added Member To Class: ClassName=FPGA_J6_J8 Member=Component P6 Header 7X2
+Added Member To Class: ClassName=FPGA_J6_J8 Member=Component P8 Header 8X2
+Added Member To Class: ClassName=FPGA_J6_J8 Member=Component P9 Header 8X2

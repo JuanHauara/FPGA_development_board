@@ -1,0 +1,24 @@
+Added Component: Designator=X2(Active oscillator 3.2mm x 2.5mm)
+Added Component: Designator=X3(Active oscillator 3.2mm x 2.5mm)
+Added Component: Designator=X4(Active oscillator 3.2mm x 2.5mm)
+Added Component: Designator=X5(Active oscillator 3.2mm x 2.5mm)
+Added Pin To Net: NetName=Vdd_3.3V Pin=X2-1
+Added Pin To Net: NetName=GND Pin=X2-2
+Added Pin To Net: NetName=NetP3_2 Pin=X2-3
+Added Pin To Net: NetName=Vdd_3.3V Pin=X2-4
+Added Pin To Net: NetName=Vdd_3.3V Pin=X3-1
+Added Pin To Net: NetName=GND Pin=X3-2
+Added Pin To Net: NetName=NetP4_2 Pin=X3-3
+Added Pin To Net: NetName=Vdd_3.3V Pin=X3-4
+Added Pin To Net: NetName=Vdd_3.3V Pin=X4-1
+Added Pin To Net: NetName=GND Pin=X4-2
+Added Pin To Net: NetName=NetP5_2 Pin=X4-3
+Added Pin To Net: NetName=Vdd_3.3V Pin=X4-4
+Added Pin To Net: NetName=Vdd_3.3V Pin=X5-1
+Added Pin To Net: NetName=GND Pin=X5-2
+Added Pin To Net: NetName=NetP6_2 Pin=X5-3
+Added Pin To Net: NetName=Vdd_3.3V Pin=X5-4
+Added Member To Class: ClassName=FPGA_J6_J8 Member=Component X2 Active oscillator 25MHz
+Added Member To Class: ClassName=FPGA_J6_J8 Member=Component X3 Active oscillator 24MHz
+Added Member To Class: ClassName=FPGA_J6_J8 Member=Component X4 Active oscillator 18.432MHz
+Added Member To Class: ClassName=FPGA_J6_J8 Member=Component X5 Active oscillator 8MHz

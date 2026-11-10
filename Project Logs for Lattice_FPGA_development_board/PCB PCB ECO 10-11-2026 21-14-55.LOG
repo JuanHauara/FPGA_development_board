@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=P7 NewDesignator=P9
+Change Component Designator: OldDesignator=P9 NewDesignator=P7
+Change Net Name : Old Net Name=NetP7_2 New Net Name=NetP9_2
+Added Member To Class: ClassName=FPGA_J6_J8 Member=Component P5 Header 7X2
+Added Member To Class: ClassName=FPGA_J6_J8 Member=Component P9 Header 7X2

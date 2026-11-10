@@ -1,0 +1,60 @@
+Removed Pin From Net: NetName=Vdd_3.3V Pin=C10-1
+Removed Pin From Net: NetName=GND Pin=C10-2
+Removed Pin From Net: NetName=Vdd_3.3V Pin=C11-1
+Removed Pin From Net: NetName=GND Pin=C11-2
+Removed Pin From Net: NetName=Vdd_3.3V Pin=C12-1
+Removed Pin From Net: NetName=GND Pin=C12-2
+Removed Pin From Net: NetName=Vdd_3.3V Pin=C13-1
+Removed Pin From Net: NetName=GND Pin=C13-2
+Removed Pin From Net: NetName=Vdd_3.3V Pin=C14-1
+Removed Pin From Net: NetName=GND Pin=C14-2
+Change Component Footprint: Designator=C10 Old Footprint=capacitor 0805 New Footprint=capacitor 0603
+Change Component Footprint: Designator=C11 Old Footprint=capacitor 0805 New Footprint=capacitor 0603
+Change Component Footprint: Designator=C12 Old Footprint=capacitor 0805 New Footprint=capacitor 0603
+Change Component Footprint: Designator=C13 Old Footprint=capacitor 0805 New Footprint=capacitor 0603
+Change Component Footprint: Designator=C14 Old Footprint=capacitor 0805 New Footprint=capacitor 0603
+Change component parameters: Designator = "C78" ("C78"); Footprint = "capacitor 0603"; UniqueID = "\SOEOBBHI" ("\SOEOBBHI")
+Change component parameters (AddParameter): Name = "LCSC part"; Value = "C1691"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "V"; Value = "6.3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C80" ("C80"); Footprint = "capacitor 0603"; UniqueID = "\KEJWQMWR" ("\KEJWQMWR")
+Change component parameters (AddParameter): Name = "LCSC part"; Value = "C1691"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "V"; Value = "6.3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C10" ("C10"); Footprint = "capacitor 0805"; UniqueID = "\RSTDJHII" ("\RSTDJHII")
+Change component parameters (AddParameter): Name = "LCSC part"; Value = "C14663"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "V"; Value = "50"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C11" ("C11"); Footprint = "capacitor 0805"; UniqueID = "\SSBLOFAB" ("\SSBLOFAB")
+Change component parameters (AddParameter): Name = "LCSC part"; Value = "C14663"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "V"; Value = "50"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C12" ("C12"); Footprint = "capacitor 0805"; UniqueID = "\IFSRELCB" ("\IFSRELCB")
+Change component parameters (AddParameter): Name = "LCSC part"; Value = "C14663"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "V"; Value = "50"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C13" ("C13"); Footprint = "capacitor 0805"; UniqueID = "\KAHHOEYS" ("\KAHHOEYS")
+Change component parameters (AddParameter): Name = "LCSC part"; Value = "C14663"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "V"; Value = "50"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C14" ("C14"); Footprint = "capacitor 0805"; UniqueID = "\QEELDKIY" ("\QEELDKIY")
+Change component parameters (AddParameter): Name = "LCSC part"; Value = "C14663"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "V"; Value = "50"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C10-1
+Added Pin To Net: NetName=Vdd_3.3V Pin=C10-2
+Added Pin To Net: NetName=GND Pin=C11-1
+Added Pin To Net: NetName=Vdd_3.3V Pin=C11-2
+Added Pin To Net: NetName=GND Pin=C12-1
+Added Pin To Net: NetName=Vdd_3.3V Pin=C12-2
+Added Pin To Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=Vdd_3.3V Pin=C13-2
+Added Pin To Net: NetName=GND Pin=C14-1
+Added Pin To Net: NetName=Vdd_3.3V Pin=C14-2
