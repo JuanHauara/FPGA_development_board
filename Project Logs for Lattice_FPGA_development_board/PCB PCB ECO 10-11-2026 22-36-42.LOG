@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=AD1_3v Pin=M4-J8_32
+Removed Pin From Net: NetName=AD0_3v Pin=M4-J8_33
+Removed Pin From Net: NetName=IO_G3 Pin=P9-1
+Removed Pin From Net: NetName=IO_F5 Pin=P9-3
+Removed Pin From Net: NetName=IO_B1 Pin=P9-7
+Removed Pin From Net: NetName=IO_G3 Pin=P9-9
+Removed Pin From Net: NetName=IO_F5 Pin=P9-11
+Removed Pin From Net: NetName=IO_B1 Pin=P9-15
+Removed Pin From Net: NetName=AD0_3v Pin=P15-13
+Added Pin To Net: NetName=AD1_3v Pin=M4-J8_18
+Added Pin To Net: NetName=AD0_3v Pin=M4-J8_30
+Added Pin To Net: NetName=IO_G3 Pin=P8-3
+Added Pin To Net: NetName=IO_G3 Pin=P8-11
+Added Pin To Net: NetName=IO_B1 Pin=P9-3
+Added Pin To Net: NetName=IO_F5 Pin=P9-7
+Added Pin To Net: NetName=IO_B1 Pin=P9-11
+Added Pin To Net: NetName=IO_F5 Pin=P9-15
+Added Pin To Net: NetName=AD1_3v Pin=P17-3
+Added Pin To Net: NetName=AD0_3v Pin=P17-8
+Added Pin To Net: NetName=IO_C1 Pin=M4-J8_33
+Added Pin To Net: NetName=IO_C1 Pin=P9-1
+Added Pin To Net: NetName=IO_C1 Pin=P9-9
+Added Pin To Net: NetName=IO_C1 Pin=P15-13
+Added Net: Name=IO_C1
+Added Pin To Net: NetName=IO_C2 Pin=M4-J8_32
+Added Pin To Net: NetName=IO_C2 Pin=P8-1
+Added Pin To Net: NetName=IO_C2 Pin=P8-9
+Added Net: Name=IO_C2
