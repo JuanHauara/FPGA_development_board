@@ -390,7 +390,7 @@ GenerateClassCluster=0
 DocumentUniqueId=IJWAKDKR
 
 [Document21]
-DocumentPath=stm32h750_dev_board.SchDoc
+DocumentPath=stm32h750.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -458,7 +458,7 @@ GenerateClassCluster=0
 DocumentUniqueId=BJWCXHXA
 
 [Document25]
-DocumentPath=stm32f411_dev_board.SchDoc
+DocumentPath=stm32f411.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
