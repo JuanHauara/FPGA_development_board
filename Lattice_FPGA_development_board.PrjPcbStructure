@@ -13,6 +13,6 @@ Record=NoMainPathDocument|SourceDocument=buzzer.SchDoc|FileName=pc_data_bus_inpu
 Record=NoMainPathDocument|SourceDocument=buzzer.SchDoc|FileName=pc_data_bus_leds.SchDoc|SheetNumber=8
 Record=NoMainPathDocument|SourceDocument=buzzer.SchDoc|FileName=power_supply.SchDoc|SheetNumber=1
 Record=NoMainPathDocument|SourceDocument=buzzer.SchDoc|FileName=seven_segment_displays.SchDoc|SheetNumber=11
-Record=NoMainPathDocument|SourceDocument=buzzer.SchDoc|FileName=stm32f411_dev_board.SchDoc|SheetNumber=18
-Record=NoMainPathDocument|SourceDocument=buzzer.SchDoc|FileName=stm32h750_dev_board.SchDoc|SheetNumber=16
+Record=NoMainPathDocument|SourceDocument=buzzer.SchDoc|FileName=stm32f411.SchDoc|SheetNumber=18
+Record=NoMainPathDocument|SourceDocument=buzzer.SchDoc|FileName=stm32h750.SchDoc|SheetNumber=16
 Record=NoMainPathDocument|SourceDocument=buzzer.SchDoc|FileName=USB_TTL_converter.SchDoc|SheetNumber=13
