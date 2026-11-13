@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=IO_G14 Pin=P40-1
+Removed Pin From Net: NetName=IO_F14 Pin=P40-2
+Removed Pin From Net: NetName=IO_A5 Pin=P40-4
+Removed Pin From Net: NetName=IO_A3 Pin=P40-5
+Removed Pin From Net: NetName=NetP41_1 Pin=P41-1
+Removed Pin From Net: NetName=micro_sd_CARD_DETECT Pin=P42-1
+Removed Pin From Net: NetName=micro_sd_MISO Pin=P42-2
+Removed Pin From Net: NetName=micro_sd_MOSI Pin=P42-4
+Removed Pin From Net: NetName=micro_sd_CS Pin=P42-5
+Removed Pin From Net: NetName=NetP41_4 Pin=S33-3
+Removed Pin From Net: NetName=NetP41_2 Pin=S33-7
+Added Pin To Net: NetName=IO_A3 Pin=P40-1
+Added Pin To Net: NetName=IO_A5 Pin=P40-2
+Added Pin To Net: NetName=IO_F14 Pin=P40-4
+Added Pin To Net: NetName=IO_G14 Pin=P40-5
+Added Pin To Net: NetName=NetP41_1 Pin=P41-5
+Added Pin To Net: NetName=micro_sd_CS Pin=P42-1
+Added Pin To Net: NetName=micro_sd_MOSI Pin=P42-2
+Added Pin To Net: NetName=micro_sd_MISO Pin=P42-4
+Added Pin To Net: NetName=micro_sd_CARD_DETECT Pin=P42-5
+Added Pin To Net: NetName=NetP41_2 Pin=S33-3
+Added Pin To Net: NetName=NetP41_4 Pin=S33-7
+Change Net Name : Old Net Name=NetP41_1 New Net Name=NetP41_5
+Added Pin To Net: NetName=NetP41_1 Pin=P41-1
+Added Pin To Net: NetName=NetP41_1 Pin=S33-2
+Added Net: Name=NetP41_1
