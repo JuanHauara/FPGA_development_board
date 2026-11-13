@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=FPGA11_MCU_STM32H750 Pin=M5-J2_30
+Removed Pin From Net: NetName=FPGA2_MCU_STM32H750 Pin=M5-J2_43
+Added Pin To Net: NetName=FPGA2_MCU_STM32H750 Pin=M5-J2_30
+Added Pin To Net: NetName=FPGA11_MCU_STM32H750 Pin=M5-J2_43

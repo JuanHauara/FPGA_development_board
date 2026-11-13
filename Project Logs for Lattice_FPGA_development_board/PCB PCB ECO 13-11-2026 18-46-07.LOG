@@ -1,0 +1,11 @@
+Change Net Name : Old Net Name=IO_A10_MCU_STM32H750 New Net Name=FPGA2_MCU_STM32H750
+Change Net Name : Old Net Name=IO_B9_MCU_STM32H750 New Net Name=FPGA1_MCU_STM32H750
+Change Net Name : Old Net Name=IO_C4_MCU_STM32H750 New Net Name=FPGA5_MCU_STM32H750
+Change Net Name : Old Net Name=IO_C5_MCU_STM32H750 New Net Name=FPGA6_MCU_STM32H750
+Change Net Name : Old Net Name=IO_C7_MCU_STM32H750 New Net Name=FPGA7_MCU_STM32H750
+Change Net Name : Old Net Name=IO_D7_MCU_STM32H750 New Net Name=FPGA8_MCU_STM32H750
+Change Net Name : Old Net Name=IO_D8_MCU_STM32H750 New Net Name=FPGA9_MCU_STM32H750
+Change Net Name : Old Net Name=IO_E6_MCU_STM32H750 New Net Name=FPGA4_MCU_STM32H750
+Change Net Name : Old Net Name=IO_E7_MCU_STM32H750 New Net Name=FPGA10_MCU_STM32H750
+Change Net Name : Old Net Name=IO_E9_MCU_STM32H750 New Net Name=FPGA11_MCU_STM32H750
+Change Net Name : Old Net Name=IO_F7_MCU_STM32H750 New Net Name=FPGA3_MCU_STM32H750
